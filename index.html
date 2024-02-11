@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div id="display-container">
+        <input id="display" readonly>
+    
+    <div id="btn-container">
+        <button onclick="clearDisplay()" class="eq-btn">AC</button>
+        
+        <button onclick="updateDisplay('+')" class="op-btn">+</button>
+        
+        <button onclick="updateDisplay('-')" class="op-btn">-</button>
+        
+        <button onclick="updateDisplay('/')" class="op-btn">/</button>
+        
+        <button onclick="updateDisplay('7')">7</button>
+        
+        <button onclick="updateDisplay('8')">8</button>
+        
+        <button onclick="updateDisplay('9')">9</button>
+        
+        <button onclick="updateDisplay('*')" class="op-btn">x</button>
+        
+        <button onclick="updateDisplay('4')">4</button>
+        
+        <button onclick="updateDisplay('5')">5</button>
+        
+        <button onclick="updateDisplay('6')">6</button>
+        
+        <button onclick="updateDisplay('.')">.</button>
+        
+        <button onclick="updateDisplay('1')">1</button>
+        
+        <button onclick="updateDisplay('2')">2</button>
+        
+        <button onclick="updateDisplay('3')">3</button>
+        
+        <button onclick="calculate()" class="eq-btn">=</button>
+        
+        <button  onclick="updateDisplay('0')">0</button>
+        
+    </div>
+    
+</div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>

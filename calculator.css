@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: rgba(214, 202, 202, 0.747);
+}
+
+
+button{
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    border: none;
+    background-color: rgba(122, 122, 122, 0.74);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(117, 64, 31, 0.712);
+}
+
+#display{
+    background-color: rgba(190, 180, 168, 0.804);
+    border: none;
+    height: 80px;
+    width: 395px;
+    border-radius: 8px;
+    text-align: left;
+    color: rgba(110, 89, 72, 0.918);
+    font-size: 4rem;
+    overflow: hidden;
+    padding: 5px;
+    
+}
+
+#btn-container{
+    padding:12px;
+   
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px;
+    column-gap: 20px;
+    row-gap: 15px;
+    background-color: rgb(222, 202, 173);
+    width: fit-content;
+    height: 500px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+button:active{
+    opacity: 0.3;
+    background-color: black;
+}
+
+.op-btn{
+    background-color: rgba(173, 130, 38, 0.897);
+}
+
+.op-btn:active{
+    background-color: beige;
+}
+
+.eq-btn{
+    background-color: rgba(93, 151, 214, 0.664);
+}
+
+.eq-btn:active{
+    background-color: rgba(97, 177, 177, 0.852);
+}
